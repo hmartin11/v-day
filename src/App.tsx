@@ -7,7 +7,6 @@ import cabin from './cabin.jpeg';
 import ski from './ski.jpeg';
 import xmas from './xmas.jpeg';
 //import IMG_4316 from './IMG_4316.JPG';
-import Confetti from './Confetti';
 import Pride from "react-canvas-confetti/dist/presets/fireworks";
 import Fireworks from "react-canvas-confetti/dist/presets/fireworks";
 
