@@ -36,10 +36,6 @@ export default function Page() {
 
   const handleSetBunny = () => {
     setBunny(yesBunny +1);
-    if (yesBunny > 2) {
-      confetti_display();
-      
-    }
 
 
   };
@@ -143,7 +139,7 @@ export default function Page() {
       {
       yesPressed === 5 ? (
         <>
-          <Pride autorun={{ speed: 2, duration: 1000}} />
+          <Pride autorun={{ speed: 2, duration: 10000}} />
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <button 
           className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
@@ -194,3 +190,5 @@ const Footer = () => {
     </a>
   );
 };
+
+
